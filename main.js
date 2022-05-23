@@ -39,7 +39,7 @@ const game = () => {
           compareHands(this.textContent, computerChoice);
           playerScore.textContent = pScore;
           computerScore.textContent = cScore;
-        }, 1500);
+        }, 1000);
         playerHand.style.animation = "shakePlayer 1.5s ease";
         computerHand.style.animation = "shakeComputer 1.5s ease";
       });
